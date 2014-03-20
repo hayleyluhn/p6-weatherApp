@@ -1,0 +1,38 @@
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  
+  <body>
+
+   <div class="container">
+    <div class="row">
+      <div class="small-11 medium-11 large-11 small-centered medium-centered large-centered columns">
+        <label>
+          <form name="zip" onsubmit="return getWeather(null)">
+            <input name="zipcode" type="text" placeholder="Enter Location and press Enter" />
+          </form>
+        </label>
+      </div>
+    </div>
+
+    
+    <div class="row">
+      <div id="weather" class="large-12"></div>
+    </div>
+  </div>
+</div>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+  </body>
+</html>
